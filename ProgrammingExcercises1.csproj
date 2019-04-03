@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Puzzles\Reverse.cs" />
     <Compile Include="Puzzles\FizzBuzz.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\ReverseTests.cs" />
     <Compile Include="Tests\FizzBuzzTests.cs" />
   </ItemGroup>
   <ItemGroup />
