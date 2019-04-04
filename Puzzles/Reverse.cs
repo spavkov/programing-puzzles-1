@@ -11,7 +11,17 @@ namespace ProgrammingExcercises1.Puzzles
 
         public static string Solve(string input)
         {
-            throw new NotImplementedException();
+            
+            string slovo = "iknowhowtocode";
+            string naopacke = "";
+
+            for (int i = slovo.Length - 1; i >= 0; i--)
+            {
+                naopacke += slovo[i];
+
+            }
+            Console.WriteLine(naopacke);
+            return (naopacke);
         }
     }
 }
